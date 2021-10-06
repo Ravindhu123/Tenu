@@ -10,7 +10,7 @@ Wa.me/+94766598862
 const Neotro = require('../events');
 const {MessageType, Mimetype} = require('@adiwajshing/baileys');
 
-Neotro.addCommand({pattern: 'hack ?(.*)', fromMe: true, desc: 'Hack Your Targert'}, (async (message, match) => {
+Neotro.addCommand({pattern: 'hack ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (message.reply_message === false) {
 
@@ -279,7 +279,7 @@ r_text5[9] = "65%";
 
     var d = Math.floor(10*Math.random())
 
-    await message.sendMessage(`*Deleting System’s Security System* \n\n𝕎𝕙𝕒𝕥𝕤𝔸𝕡𝕡: ${r_text[i]} \n𝔾𝕒𝕝𝕝𝕖𝕣𝕪: ${r_text2[a]} \n𝔻𝕠𝕔𝕦𝕞𝕖𝕟𝕥𝕤: ${r_text3[b]} \n𝔽𝕚𝕝𝕖𝕤: ${r_text4[c]} \nℂ𝕒𝕞𝕖𝕣𝕒: ${r_text5[d]}`);
+    await message.sendMessage(`*Deleting System’s Security System* \n\nᴡʜᴀᴛꜱᴀᴘᴘ: ${r_text[i]} \nɢᴀʟʟᴇʀʏ: ${r_text2[a]} \nᴅᴏᴄᴜᴍᴇɴᴛꜱ: ${r_text3[b]} \nꜰɪʟᴇꜱ: ${r_text4[c]} \nᴄᴀᴍᴇʀᴀ: ${r_text5[d]}`);
 
     await new Promise(r => setTimeout(r, 5000));
 
@@ -358,7 +358,7 @@ r_text5[9] = "93%";
 
     var d = Math.floor(10*Math.random())
 
-    await message.sendMessage(`*Removing System’s Locks...* \n\n𝕎𝕙𝕒𝕥𝕤𝔸𝕡𝕡: ${r_text[i]} \n𝔾𝕒𝕝𝕝𝕖𝕣𝕪: ${r_text2[a]} \n𝔻𝕠𝕔𝕦𝕞𝕖𝕟𝕥𝕤: ${r_text3[b]} \n𝔽𝕚𝕝𝕖𝕤: ${r_text4[c]} \nℂ𝕒𝕞𝕖𝕣𝕒: ${r_text5[d]}`);
+    await message.sendMessage(`*Removing System’s Locks...* \n\nᴡʜᴀᴛꜱᴀᴘᴘ: ${r_text[i]} \nɢᴀʟʟᴇʀʏ: ${r_text2[a]} \nᴅᴏᴄᴜᴍᴇɴᴛꜱ: ${r_text3[b]} \nꜰɪʟᴇꜱ: ${r_text4[c]} \nᴄᴀᴍᴇʀᴀ: ${r_text5[d]}`);
 
     await new Promise(r => setTimeout(r, 5000));
 
@@ -449,7 +449,7 @@ r_text5[5] = "99%";
 
 }));
 
-Neotro.addCommand({pattern: 'porthack', fromMe: true, desc: }, (async (message, match) => {
+Neotro.addCommand({pattern: 'porthack', fromMe: true, desc: 'Hacking panel'}, (async (message, match) => {
 
     await message.sendMessage('*Codded by Teenuh-X* \n💻Usage: ⚙️ *.hack <reply>*\nℹ️Desc: ✉️This way you can prank your friends with port hacks.\n\n🆕 _Supports Filter!_');
 
