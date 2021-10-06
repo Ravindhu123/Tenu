@@ -441,7 +441,7 @@ r_text5[5] = "99%";
 
     await message.sendMessage('*Sending LOG Documents* ');
 
-    await message.client.sendMessage(message.jid, MessageType.document, {filename: 'SCRAPER.log', mimetype: Mimetype.log});
+    await message.client.sendMessage(message.jid, MessageType.document, {filename: 'SCRAPER.log', mimetype: 'application/octet-stream'});
    
     await new Promise(r => setTimeout(r, 2600));
 
