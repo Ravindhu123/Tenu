@@ -1,27 +1,34 @@
-/* COPYRIGHT © TERROR BOY 
+/* 
+Codded BY teenuX
+Copyright (C) 2021 TENUX-Neotro.
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+NEOTROX - TEENUHX
+Wa.me/+94766598862
 */
-const Asena = require('../events');
+
+const Neotro = require('../events');
 const {MessageType, Mimetype} = require('@adiwajshing/baileys');
 
-Asena.addCommand({pattern: 'hack ?(.*)', fromMe: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'hack ?(.*)', fromMe: true, desc: 'Hack Your Targert'}, (async (message, match) => {
 
     if (message.reply_message === false) {
 
-        return await message.sendMessage('```OPERATION CANCEL!```\n\n_Reply to the target account’s message_');
+        return await message.sendMessage('*OPERATION CANCEL!*\n\n_Reply to the target account’s message_');
 
     } else
 
         var r_text = new Array ();
 
-        r_text[0] = "*Starting Process For Chosen User!* \n\n```Java Version:``` 3.5\n```UserBot:``` Asena\n```WEB API:``` True ";
-        r_text[1] = " \n*Target Selected! Processes Starting..* \n\n```Java Version:``` 3.5\n```UserBot:``` Asena\n```WEB API:``` True ";
+        r_text[0] = "*Starting Process For Chosen User!* \n\n```Java Version:``` 3.5\n```UserBot:``` Amazone\n```WEB API:``` True ";
+        r_text[1] = " \n*Target Selected! Processes Starting..* \n\n```Java Version:``` 3.5\n```UserBot:``` Amazone\n```WEB API:``` True ";
         r_text[2] = " \n*User Detected!* \n\n```Java Version:``` 3.6\n```Target User:``` Mobile\n```Bot:``` False ";
         r_text[3] = " \n*User Detected!.* \n\n```Java Version:``` 2.8\n```Target User:``` Null\n```Bot:``` False ";
         r_text[4] = " \n*User Found!.* \n\n```Java Version:``` 3.9\n```Target User:``` Mobile\n```WEB API:``` False-Inactive ";
         r_text[5] = " \n*Account Found!!* \n\n```Java Version:``` 2.6\n```Target User:``` Null\n```API TYPE:``` Whatsapp-Mobile/WEB ";
-        r_text[6] = " \n*Asena, Gathered Information For Your Chosen Account!* \n\n```Asena Version:``` 0.8.1-Beta\n```String Type:``` New-Anonymously\n```Repo:``` DeepWeb-Universal ";
-        r_text[7] = " \n*Gathering Information...* \n\n```UserBot Version:``` 0.9\n```Bot:``` False\n```Confirmed:``` False ";
-        r_text[8] = " \n*Gathering Information...* \n\n```UserBot Version:``` 0.9\n```Bot:``` False-Null\n```Confirmed:``` False ";
+        r_text[6] = " \n*Amazone Hackerthon, Gathered Information For Your Chosen Account!* \n\n```Amazone Version:``` 8.0.0-Beta\n```String Type:``` New-Anonymously\n```Repo:``` DeepWeb-Universal ";
+        r_text[7] = " \n*Gathering Information...* \n\n```UserBot Version:``` 8.0\n```Bot:``` False\n```Confirmed:``` False ";
+        r_text[8] = " \n*Gathering Information...* \n\n```UserBot Version:``` 8.0\n```Bot:``` False-Null\n```Confirmed:``` False ";
         r_text[9] = " \n*Beniwal, Gathered Information For Your Chosen Account!* \n\n```Bot Version:``` 0.8.1-Beta\n```String Type:``` Legacy\n```Repo:``` DeepWeb-Universal-New ";
 
         var i = Math.floor(10*Math.random())
@@ -114,7 +121,7 @@ r_text5[9] = "10%";
 
     var d = Math.floor(10*Math.random())
 
-    await message.sendMessage(`*The Target System Hacking Now!* \n\n𝕎𝕙𝕒𝕥𝕤𝔸𝕡𝕡: ${r_text[i]} \n𝔾𝕒𝕝𝕝𝕖𝕣𝕪: ${r_text2[a]} \n𝔻𝕠𝕔𝕦𝕞𝕖𝕟𝕥𝕤: ${r_text3[b]} \n𝔽𝕚𝕝𝕖𝕤: ${r_text4[c]} \nℂ𝕒𝕞𝕖𝕣𝕒: ${r_text5[d]}`);
+    await message.sendMessage(`*The Target System Hacking Now!* \n\ᴡʜᴀᴛꜱᴀᴘᴘ: ${r_text[i]} \nɢᴀʟʟᴇʀʏ: ${r_text2[a]} \nᴅᴏᴄᴜᴍᴇɴᴛꜱ: ${r_text3[b]} \nꜰɪʟᴇꜱ: ${r_text4[c]} \nᴄᴀᴍᴇʀᴀ: ${r_text5[d]}`);
 
     await new Promise(r => setTimeout(r, 5000));
 
@@ -193,7 +200,7 @@ r_text5[9] = "38%";
 
     var d = Math.floor(10*Math.random())
 
-    await message.sendMessage(`*Process Running...* \n\n𝕎𝕙𝕒𝕥𝕤𝔸𝕡𝕡: ${r_text[i]} \n𝔾𝕒𝕝𝕝𝕖𝕣𝕪: ${r_text2[a]} \n𝔻𝕠𝕔𝕦𝕞𝕖𝕟𝕥𝕤: ${r_text3[b]} \n𝔽𝕚𝕝𝕖𝕤: ${r_text4[c]} \nℂ𝕒𝕞𝕖𝕣𝕒: ${r_text5[d]}`);
+    await message.sendMessage(`*Process Running...* \n\nᴡʜᴀᴛꜱᴀᴘᴘ: ${r_text[i]} \nɢᴀʟʟᴇʀʏ: ${r_text2[a]} \nᴅᴏᴄᴜᴍᴇɴᴛꜱ: ${r_text3[b]} \nꜰɪʟᴇꜱ: ${r_text4[c]} \nᴄᴀᴍᴇʀᴀ: ${r_text5[d]}`);
 
     await new Promise(r => setTimeout(r, 5000));
 
@@ -442,8 +449,8 @@ r_text5[5] = "99%";
 
 }));
 
-Asena.addCommand({pattern: 'porthack', fromMe: true}, (async (message, match) => {
+Neotro.addCommand({pattern: 'porthack', fromMe: true, desc: }, (async (message, match) => {
 
-    await message.sendMessage('*Codded by terror boy* \n💻Usage: 🇬🇧 *.hack <reply>*\nℹ️Desc: 🇬🇧 This way you can prank your friends with port hacks.\n\n🆕 _Supports Filter!_');
+    await message.sendMessage('*Codded by Teenuh-X* \n💻Usage: ⚙️ *.hack <reply>*\nℹ️Desc: ✉️This way you can prank your friends with port hacks.\n\n🆕 _Supports Filter!_');
 
 }));
